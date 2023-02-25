@@ -31,16 +31,19 @@ $(function () {
     //  access .time-block with this
     var timeBlock = parseInt($(this).attr("id").split('-')[1]);
   
-
     if (currentTime === timeBlock) {
       $(this).addClass("present");
+      $(this).removeClass("future");
+      $(this).removeClass("past");
 
-    } else if (currentTime >= timeBlock) {
+    } else if (currentTime > timeBlock) {
       $(this).removeClass("present");
+      $(this).removeClass("past");
       $(this).addClass("future");
 
-    } else if (currentTime <= timeBlock) {
+    } else if (currentTime < timeBlock) {
       $(this).removeClass("future");
+      $(this).removeClass("present");
       $(this).addClass("past");
     }
 });
