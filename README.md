@@ -17,7 +17,8 @@ Starter code for this application was provided by the GitHub account:'The-Coding
 
 
 ## Screenshot of Application
-
+![Work Day Scheduler 1](https://user-images.githubusercontent.com/121972113/221430415-52ecd593-f53d-405c-a632-5ccddd13b4fe.png)
+![Work Day Scheduler 2](https://user-images.githubusercontent.com/121972113/221430419-e7afe172-f4c2-4c0a-a77d-0058e648e7ce.png)
 
 
 ## Screen Recording of Application
